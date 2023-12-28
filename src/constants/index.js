@@ -1,0 +1,123 @@
+export const LINKS =[
+    {
+        name: 'Home',
+        path:'/home'
+    },
+    {
+        name: 'About',
+        path:'/about'
+    },
+    {
+        name: 'Services',
+        path:'/services'
+    },
+    {
+        name: 'Porfolio',
+        path:'/porfolio'
+    },
+    {
+        name: 'Blog',
+        path:'/blog'
+    },
+    {
+        name: 'Contacto',
+        path:'/contacto'
+    },
+]
+
+import TrendingUpIcon from '../img/icons/bx-line-chart.png';
+import ComputerIcon from '../img/icons/bx-desktop.png';
+import MobileAndroidIcon from '../img/icons/bx-mobile-alt.png';
+
+
+import TrendingUpIconBlack from '../img/icons/lineChartBlack36.png';
+import ComputerIconBlack from '../img/icons/desktopBlack36.png';
+import MobileAndroidIconBlack from '../img/icons/mobileBlack36.png';
+
+
+
+
+export const SERVICES=[
+    {
+        icon: ComputerIcon,
+        icon2:ComputerIconBlack,
+        title:'Paginas Webs',
+        description:'Diseñamos páginas web personalizadas según sus necesidades.',
+    },
+    {
+        icon: MobileAndroidIcon,
+        icon2:MobileAndroidIconBlack,
+        title:'Paginas Mobiles',
+        description:'Diseños adaptables en dispositivos móviles y tablets',
+    },
+    {
+        icon: TrendingUpIcon,
+        icon2:TrendingUpIconBlack,
+        title:'SEO',
+        description:'Diseño web optimizado para SEO y mejor visibilidad en buscadores.',
+    }, 
+ 
+]
+
+export const TEXT_ABOUT=[
+    {
+        title: 'Quienes somos',
+        description:'Simplemente apasionados por la tecnologia y el marketing'
+    },
+    {
+        title: 'Nuestra filosofía',
+        description:'Mi filosofía es el trabajo bien hecho, siempre a disposicion del cliente'
+    },
+    {
+        title: 'Como trabajar',
+        description:'Trabajo 24/7 para poder mejora el servicio'
+    },
+    
+]
+
+
+import coffeShop from '../img/works/coffeeShop.png'
+import nikeShop from '../img/works/nikeShop.png'
+import starkeFitt from '../img/works/starkeFit.png'
+import travelWeb from '../img/works/travelWeb.png'
+
+
+
+
+export const WORKS =  [
+    {
+        title: 'titulo del trabajo',
+        description: 'descripcionm del trabajo',
+        image: coffeShop,
+    },
+    {
+        title: 'titulo del trabajo',
+        description: 'descripcionm del trabajo',
+        image: nikeShop,
+    },
+    {
+        title: 'titulo del trabajo',
+        description: 'descripcionm del trabajo',
+        image: starkeFitt,
+    },
+    {
+        title: 'titulo del trabajo',
+        description: 'descripcionm del trabajo',
+        image: travelWeb,
+    },
+]
+ import facebook from '../img/icons/socialMedia/facebook36.png'
+ import linkedin from '../img/icons/socialMedia/linkedin36.png'
+ import email from '../img/icons/socialMedia/email36.png'
+
+export const ICONS_LINKS=[
+    {
+        name: facebook
+    },
+    {
+        name: linkedin
+    },
+    {
+        name: email
+    },
+]

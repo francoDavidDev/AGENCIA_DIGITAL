@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
+
+html,
+body,
+#back,
+.app{
+ 
+    font-family: 'Inter', sans-serif;
+    color: white;
+      height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.link{
+  transition: 1s;
+}
+
+.slick-slide > div{
+  margin: 0 15px ;
+  justify-content: center;
+  display: flex;
+  
+}
