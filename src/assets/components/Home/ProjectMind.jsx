@@ -32,7 +32,8 @@ const ProjectMind = () => {
                                 autoPlay
                                 loop
                                 muted
-                                 type="video/mp4">
+                                 type="video/mp4"
+                                 width={'200%'}>
                                   <source src={video}  />
 
                                  </video>
