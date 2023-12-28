@@ -20,11 +20,11 @@ const BannerMain = () => {
                     justifyContent:'center',
                     alignItems:{xs:'center', sm:'start'},
                     flexDirection:'column',
-                    gap:1,
+                    gap:{xs:6, sm:1},
                     maxWidth:'600px',
                     textAlign:{xs:'center',sm:'left'}
                    }} >
-            <Typography variant='h4' color='#065A5B'  fontWeight='bold' sx={{fontSize:{xs:'1rem', sm:'1.5rem'},letterSpacing: '4px'}}>
+            <Typography variant='h4' color='#065A5B'  fontWeight='bold' sx={{fontSize:{xs:'1.8rem', sm:'1.5rem'},letterSpacing: '4px'}}>
                 Matte
             </Typography>
             <Typography variant='h1' sx={{fontSize:{xs:'2rem', sm:'3rem'}}} fontWeight='bold'>
