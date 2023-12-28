@@ -30,8 +30,8 @@ const Navbar = () => {
   
 }}  
     > 
-     <Box>
-    <img src={matteIcon} alt="" width='50px' />
+     <Box sx={{width:{xs:'30px',sm:'50px'}}}>
+    <img src={matteIcon} alt="" width='100%' />
     </Box>
      
 
