@@ -7,7 +7,7 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 const BannerMain = () => {
   return (
-    <Box height={450} bgcolor={'red'} sx={{backgroundImage:`url(${escritorioOscuro})`,
+    <Box height={450}  sx={{backgroundImage:`url(${escritorioOscuro})`,
                                       backgroundPosition:'center',
                                       backgroundSize:'cover',
                                       display:'flex',
