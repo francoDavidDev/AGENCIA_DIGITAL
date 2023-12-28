@@ -32,8 +32,7 @@ const BannerMain = () => {
             </Typography>
             <Box/>
             <Typography variant='p' sx={{fontSize:{xs:'0.8rem', sm:'1rem'}}} >
-             ayudamos a emprendedores a vender mas, con tcticas de marketing,
-              tenemos los precios mas baratos para poder hacer crecer tu negocio
+             Ayudamos a emprendedores a tener visilidad en la web con precios economicos
             </Typography>
 
                <Box sx={{display:'flex',
