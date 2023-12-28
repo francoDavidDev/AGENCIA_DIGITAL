@@ -68,6 +68,7 @@ const Carrousel = () => {
         {WORKS.map((work)=>{
             return(
                 <Card component='div'
+                key={work.title}
                 sx={{height:400,
                 minWidth:'250px' ,
                 maxWidth:'300px' ,

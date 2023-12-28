@@ -33,11 +33,11 @@ const Footer = () => {
             })}
         </FlexCenter>
         <FlexCenter  width={'30%'} sx={{justifyContent:'space-evenly'}}>
-          {ICONS_LINKS.map((icon)=>{
+          {ICONS_LINKS.map((icon,index)=>{
             return(
-              <>
-                <img src={icon.name} alt="" width={'20px'} />
-              </>
+              <Box key={index}>
+                <img src={icon.name} alt="" width={'20px'}  />
+              </Box>
             )
           })}
         </FlexCenter>

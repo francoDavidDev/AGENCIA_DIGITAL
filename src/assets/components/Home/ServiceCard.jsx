@@ -41,6 +41,7 @@ const ServiceCard = () => {
       {SERVICES.map((service,index)=>{
         return(
     <Box
+          key={index}
         onClick={()=>handleClick(index)}
         component={'div'}
         gridColumn='span 2'

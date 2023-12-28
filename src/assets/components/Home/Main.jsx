@@ -3,7 +3,7 @@ import { Box } from '@mui/system'
 import { Icon, IconButton, Typography } from '@mui/material'
 import { SERVICES } from '../../../constants'
 
-import ServiceCard from './serviceCard';
+import ServiceCard from './ServiceCard';
 
 const Main = () => {
  
