@@ -2,13 +2,12 @@ import React,{useState,useEffect} from 'react'
 import { Box } from '@mui/system'
 import { Icon, IconButton, Typography } from '@mui/material'
 import { SERVICES } from '../../../constants'
+import ServiceCardLarge from './ServiceCardLarge'
 
-import ServiceCard from './ServiceCard';
 
-const Main = () => {
+
+const ServicesLarge = () => {
  
-
-
 
   return (
     
@@ -44,7 +43,7 @@ const Main = () => {
          </Box>
      
    
-                  <ServiceCard/>
+                  <ServiceCardLarge/>
       
 
     
@@ -56,4 +55,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default ServicesLarge

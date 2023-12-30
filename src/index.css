@@ -28,5 +28,10 @@ color: white;
   margin: 0 15px ;
   justify-content: center;
   display: flex;
-  
 }
+
+.cardService{
+  transition: 1s;
+
+}
+

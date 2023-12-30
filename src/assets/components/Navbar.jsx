@@ -53,6 +53,7 @@ const Navbar = () => {
                         sx={{color:'white',width:'5rem'}}
                         >
                             <Link  underline="hover" className='link' to={link.path} >
+                                {/* los estilos estan en el index.css */}
                                 <Typography >
                                 {link.name}
                                 </Typography>

@@ -5,7 +5,8 @@ import Navbar from './assets/components/Navbar'
 import Home from './assets/scenes/home'
 import About from './assets/scenes/about'
 
-import Main from './assets/components/Home/Main'
+import Main from './assets/components/Home/ServicesSmall'
+import Services from './assets/scenes/services'
 
 
 
@@ -18,6 +19,8 @@ function App() {
               <Route path='/' element={<Navigate to='/home' replace />}  />
               <Route path='/home' element={<Home/>}/>
               <Route path='/about' element={<About/>}/>
+              <Route path='/services' element={<Services/>}/>
+
         </Routes>
       </BrowserRouter>
     </div>

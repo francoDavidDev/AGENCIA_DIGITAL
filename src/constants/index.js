@@ -118,3 +118,80 @@ export const ICONS_LINKS=[
         name: email
     },
 ]
+
+
+
+export const WEB_PRICES=[
+    {
+
+
+
+        title:'Landing Page',
+        description1:[
+            {d:'Web hosting por 1 año'},
+            {d:'Dominio por 1 año'},
+            {d:'Certificado SSL x 1 año'},
+            {d:'No necesita mantenimiento web'},
+
+        ],
+
+        description2:[
+            {d:'Sitio creado en REACT.JS'},
+            {d:'5 secciones(se cobra adicional por mas secciones)'},
+            {d:'Hasta 10 fotos precargadas'},
+            {d:'No necesita mantenimiento web'},
+
+        ],
+        description3:[
+            {d:'Optimización para todo tipo de dispositivo'},
+            {d:'1 formulario de contacto'},
+            {d:'Links a redes sociales'},
+            {d:'Formularios de contacto'},
+            {d:'Botón de WhatsApp'},
+            {d:'Hasta 5 cuentas de mail'},
+            {d:'WhatsApp intregrado'},
+        ],
+
+        price:'$90.000',
+        informacion:''
+
+           
+        
+    },
+    {
+
+
+        title:'Paginas Corporativas',
+        description1:[
+            {d:'Web hosting por 1 año'},
+            {d:'Dominio por 1 año'},
+            {d:'Certificado SSL x 1 año'},
+            {d:'No necesita mantenimiento web'},
+
+        ],
+
+        description2:[
+            {d:'Sitio creado en REACT.JS'},
+            {d:'5 secciones(se cobra adicional por mas secciones)'},
+            {d:'Hasta 10 fotos precargadas'},
+            {d:'No necesita mantenimiento web'},
+
+        ],
+        description3:[
+            {d:'Optimización para todo tipo de dispositivo'},
+            {d:'1 formulario de contacto'},
+            {d:'Links a redes sociales'},
+            {d:'Formularios de contacto'},
+            {d:'Botón de WhatsApp'},
+            {d:'Hasta 5 cuentas de mail'},
+            {d:'WhatsApp intregrado'},
+        ],
+
+        price:'$90.000',
+        informacion:'El mantenimiento incluye actualizaciones,temas, plugins y seguridad mensual'
+           
+        
+    },
+   
+    
+]
