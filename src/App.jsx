@@ -16,7 +16,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-              <Route path='*' element={<Navigate to='/home' replace />}  />
+              <Route path='*' element={<Navigate to='/home'  />}  />
               <Route path='/home' element={<Home/>}/>
 
               <Route path='/home' element={<Home/>}/>
