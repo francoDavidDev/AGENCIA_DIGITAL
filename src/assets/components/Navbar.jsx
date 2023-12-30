@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { AppBar, Box, IconButton, Toolbar, Typography,Button, Icon,Link} from '@mui/material'
+import { AppBar, Box, IconButton, Toolbar, Typography,Button, Icon} from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu';
 
 
@@ -8,7 +8,7 @@ import { LINKS } from '../../constants';
 import matteIcon from '../../img/icons/matte.png'
 import FlexBetween from './FlexCenter';
 
-import { Outlet } from 'react-router-dom';
+import { Outlet,Link } from 'react-router-dom';
 
 
 
@@ -52,8 +52,11 @@ const Navbar = () => {
                         <Box component='div' key={i} 
                         sx={{color:'white',width:'5rem'}}
                         >
-                            <Link  underline="hover" className='link' href={link.path} sx={{fontSize:{sm:'0.8rem',md:'0.9rem', color:'#F3F8FF ', transition:'1s'}}}>
-                            {link.name}
+                            <Link  underline="hover" className='link' to={link.path} >
+                                <Typography >
+                                {link.name}
+                                </Typography>
+                            
                             </Link>
                        
                         </Box>

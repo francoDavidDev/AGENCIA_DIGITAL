@@ -14,7 +14,14 @@ body,
 }
 
 .link{
-  transition: 1s;
+  
+  text-decoration: none;
+  transition: 0.5s;
+color: white;
+}
+
+.link:hover{
+  color: aqua;
 }
 
 .slick-slide > div{
