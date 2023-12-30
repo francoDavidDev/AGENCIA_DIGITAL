@@ -1,20 +1,15 @@
 import React from 'react'
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material'
 import Navbar from '../../components/Navbar'
+import WeMe from '../../components/Home/WeMe'
 
 const About = () => {
   return (
     <>
-      <Navbar/>
-      <Box height={500} mt={8} >
-            <Typography>
-               about
-            </Typography>
-     
-    </Box>
+     <Navbar/>
+      <WeMe/>
     </>
   )
-   
 }
 
 export default About

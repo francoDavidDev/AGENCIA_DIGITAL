@@ -1,24 +1,21 @@
 export const LINKS =[
     {
-        name: 'Home',
+        name: 'Inicio',
         path:'/home'
     },
     {
-        name: 'About',
+        name: 'Nosotros',
         path:'/about'
     },
     {
-        name: 'Services',
+        name: 'Servicios',
         path:'/services'
     },
     {
-        name: 'Porfolio',
+        name: 'Trabajos',
         path:'/porfolio'
     },
-    {
-        name: 'Blog',
-        path:'/blog'
-    },
+  
     {
         name: 'Contacto',
         path:'/contacto'
@@ -47,8 +44,8 @@ export const SERVICES=[
     {
         icon: MobileAndroidIcon,
         icon2:MobileAndroidIconBlack,
-        title:'Paginas Mobiles',
-        description:'Diseños adaptables en dispositivos móviles y tablets',
+        title:'Marketing Digital',
+        description:'Mejoramos su presencia en redes sociales realizando posteos, subiendo historias y respondiendo mensajes',
     },
     {
         icon: TrendingUpIcon,
