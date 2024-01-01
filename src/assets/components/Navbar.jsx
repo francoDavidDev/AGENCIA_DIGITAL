@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-import { AppBar, Box, IconButton, Toolbar, Typography,Button, Icon} from '@mui/material'
+import { AppBar, Box, IconButton, Toolbar, Typography,Button, Icon, Drawer} from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu';
 
 
@@ -9,13 +9,20 @@ import matteIcon from '../../img/icons/matte.png'
 import FlexBetween from './FlexCenter';
 
 import { Outlet,Link } from 'react-router-dom';
+import NavListDrawer from './NavListDrawer';
 
 
 
 const Navbar = () => {
+
+    const [open,setOpen]=useState(false)
+
   return (
     <Box backgroundColor={'#1E1E1E'}>
-        
+        <Drawer open={open} anchor='right' onClose={()=>setOpen(false)} >
+        <NavListDrawer />
+        </Drawer>
+      
     <AppBar 
     sx={{
         position:'static',
@@ -68,7 +75,7 @@ const Navbar = () => {
 
             <IconButton
             size='large'
-            onClick={()=>{}}
+            onClick={()=>setOpen(true)}
             sx={{display:{sm:'none',sx:'flex', color:'white'},
         }}
          

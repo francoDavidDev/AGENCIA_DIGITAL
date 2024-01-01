@@ -7,18 +7,23 @@ export const LINKS =[
         name: 'Nosotros',
         path:'/about'
     },
-    {
+   
+   /* {
         name: 'Servicios',
         path:'/services'
+    },*/
+    {
+        name: 'Precios',
+        path:'/precios'
     },
     {
         name: 'Trabajos',
-        path:'/porfolio'
+        path:'/works'
     },
   
     {
         name: 'Contacto',
-        path:'/contacto'
+        path:'/contact'
     },
 ]
 
@@ -44,9 +49,15 @@ export const SERVICES=[
     {
         icon: MobileAndroidIcon,
         icon2:MobileAndroidIconBlack,
+        title:'Paginas Mobiles',
+        description:'Nos especializamos en crear y optimizar Páginas Móviles .',
+    },
+    /*{
+        icon: MobileAndroidIcon,
+        icon2:MobileAndroidIconBlack,
         title:'Marketing Digital',
         description:'Mejoramos su presencia en redes sociales realizando posteos, subiendo historias y respondiendo mensajes',
-    },
+    },*/
     {
         icon: TrendingUpIcon,
         icon2:TrendingUpIconBlack,
@@ -75,8 +86,9 @@ export const TEXT_ABOUT=[
 
 import coffeShop from '../img/works/coffeeShop.png'
 import nikeShop from '../img/works/nikeShop.png'
-import starkeFitt from '../img/works/starkeFit.png'
+import starkeFitt from '../img/works/starkeFit2.png'
 import travelWeb from '../img/works/travelWeb.png'
+import AlmendraCoffee from '../img/works/almendraCoffe.png'
 
 
 
@@ -100,24 +112,39 @@ export const WORKS =  [
     {
         title: 'titulo del trabajo',
         description: 'descripcionm del trabajo',
-        image: travelWeb,
+        image: travelWeb,  
+    },
+    {
+        title: 'titulo del trabajo',
+        description: 'descripcionm del trabajo',
+        image: AlmendraCoffee,     
     },
 ]
  import facebook from '../img/icons/socialMedia/facebook36.png'
- import linkedin from '../img/icons/socialMedia/linkedin36.png'
+ //import linkedin from '../img/icons/socialMedia/linkedin36.png'
  import email from '../img/icons/socialMedia/email36.png'
+ import instagram from '../img/icons/socialMedia/instagram36.png'
+
 
 export const ICONS_LINKS=[
     {
-        name: facebook
+        name: facebook,
+        path:'#'
     },
-    {
+   /* {
         name: linkedin
+        
+    },*/
+    {
+        name: instagram,
+        path:'#'
     },
     {
-        name: email
+        name: email,
+        path:'#'
     },
 ]
+
 
 
 
@@ -125,8 +152,9 @@ export const WEB_PRICES=[
     {
 
 
-
+        
         title:'Landing Page',
+        url:'/questionLandingPage',
         description1:[
             {d:'Web hosting por 1 año'},
             {d:'Dominio por 1 año'},
@@ -152,7 +180,7 @@ export const WEB_PRICES=[
             {d:'WhatsApp intregrado'},
         ],
 
-        price:'$90.000',
+        price:'$20.000',
         informacion:''
 
            
@@ -162,6 +190,7 @@ export const WEB_PRICES=[
 
 
         title:'Paginas Corporativas',
+        url:'/questionWebCorporativa',
         description1:[
             {d:'Web hosting por 1 año'},
             {d:'Dominio por 1 año'},
@@ -187,11 +216,45 @@ export const WEB_PRICES=[
             {d:'WhatsApp intregrado'},
         ],
 
-        price:'$90.000',
+        price:'$35.000',
         informacion:'El mantenimiento incluye actualizaciones,temas, plugins y seguridad mensual'
            
         
     },
    
+    
+]
+
+
+
+
+
+export const GYMS_WEBS=[
+    {
+        title:'Starke fitness',
+        description:'One page',
+        image: starkeFitt,
+    },
+    {
+        title:`Almendra 'cafe de especialidad'`,
+        description:'One page',
+        image: AlmendraCoffee,
+    },
+    {
+        title:`Viajes'`,
+        description:'One page',
+        image: travelWeb,
+    },
+    {
+        title:`Tienda de Nike`,
+        description:'One page',
+        image: nikeShop,
+    },
+    
+    {
+        title:`Cafe shop`,
+        description:'One page',
+        image: coffeShop,
+    },
     
 ]

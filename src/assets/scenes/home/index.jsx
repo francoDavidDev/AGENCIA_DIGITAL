@@ -3,10 +3,10 @@ import React from 'react'
 import Navbar from '../../components/Navbar'
 
 import BannerMain from '../../components/BannerMain'
-import Main from '../../components/Home/ServicesSmall'
-import Porfolio from '../../components/Home/Porfolio'
-import ProjectMind from '../../components/Home/ProjectMind'
-import Footer from '../../components/Home/Footer'
+import ServicesSmall from '../../components/homeComponents/ServicesSmall'
+import Works from '../../components/homeComponents/Works'
+import ProjectMind from '../../components/homeComponents/ProjectMind'
+import Footer from '../../components/homeComponents/Footer'
 
 
 function Home() {
@@ -14,9 +14,9 @@ function Home() {
     <>
     <Navbar/>
     <BannerMain/>
-    <Main/>
+    <ServicesSmall/>
 
-    <Porfolio/>
+
     <ProjectMind/>
     <Footer/>
     </>

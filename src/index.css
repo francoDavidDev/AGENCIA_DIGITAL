@@ -35,3 +35,21 @@ color: white;
 
 }
 
+.cardWeb:hover{
+  width: 400px;
+  height: 450px;
+  transform: rotateX(10deg) rotateZ(-5deg);
+  transition: 0.5s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  filter: none;
+}
+
+
+
+.contentCardWeb:hover{
+    display: block;
+  background:linear-gradient(146deg, rgba(2,0,36,0) 47%, rgba(189,37,37,0.7353114438860604) 66%, rgba(189,37,37,1) 74%);
+  display: block;
+
+}
+

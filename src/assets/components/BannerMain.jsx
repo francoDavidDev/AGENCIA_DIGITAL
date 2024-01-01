@@ -24,11 +24,11 @@ const BannerMain = () => {
                     maxWidth:'600px',
                     textAlign:{xs:'center',sm:'left'}
                    }} >
-            <Typography variant='h4' color='#065A5B'  fontWeight='bold' sx={{fontSize:{xs:'1.8rem', sm:'1.5rem'},letterSpacing: '4px'}}>
+            <Typography variant='h4' color='#0CBCC0'  fontWeight='bold' sx={{fontSize:{xs:'1.8rem', sm:'1.5rem'},letterSpacing: '4px'}}>
                 Matte
             </Typography>
             <Typography variant='h1' sx={{fontSize:{xs:'2rem', sm:'3rem'}}} fontWeight='bold'>
-              TU AGENCIA DE <Box component={'span'} color='#065A5B'>  MARKETING  </Box> CREATIVO
+              TU AGENCIA DE <Box component={'span'} color='#0CBCC0'>  MARKETING  </Box> CREATIVO
             </Typography>
             <Box/>
             <Typography variant='p' sx={{fontSize:{xs:'0.8rem', sm:'1rem'}}} >
@@ -40,29 +40,8 @@ const BannerMain = () => {
                 justifyContent:'center', 
                 gap:2,
                 ml:2}}>
-                   
-                  <PlayArrowIcon  fontSize='large' sx={{border:'1px solid 1B29DA',
-                                                        width:'2.5rem',
-                                                        height:'2.5rem',
-                                                        borderRadius:'60%',
-                                                        background:'#065A5B',
-                                                        cursor:'pointer'}}/>
-
-                      <Box >
-                          <Typography variant='h5' 
-                          fontSize='1rem' fontWeight={'bold'}
-                            sx={{letterSpacing: '4px'}}
-                          >
-                          About us
-                          </Typography>
-                          <Box width={'5.7rem'} height={'2px'} 
-                          backgroundColor='#065A5B'>
-                                
-                          </Box>
-                          <Typography variant='h6' mt='2px'   fontSize='0.7rem'>
-                            click para el video
-                          </Typography>
-                      </Box>
+                  
+                     
                 </Box>    
 
 
