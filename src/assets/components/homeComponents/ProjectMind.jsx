@@ -1,5 +1,5 @@
-import React from 'react'
-import { Box, IconButton,Button, Typography, Card } from '@mui/material'
+import React,{useEffect,useState} from 'react'
+import { Box, IconButton,Button, Typography } from '@mui/material'
 
 import video from '../../../video/estrecharManos.mp4'
 import FlexCenter from '../FlexCenter'
@@ -8,8 +8,31 @@ import { Link } from 'react-router-dom'
 import { ICONS_LINKS } from '../../../constants';
 
 const ProjectMind = () => {
+
+  const [w,setW] = useState(window.innerWidth)
+
+  useEffect(()=>{
+    const handleResize =()=>{
+      setW(window.innerWidth)
+    }
+
+    window.addEventListener('resize', handleResize);
+    return()=>{
+      window.removeEventListener('resize', handleResize);
+    }
+
+   
+  },[])
+
+    const [isActive, setIsActive]=useState(1);
+
+    const handleClick=(index)=>{
+      setIsActive(index)
+
+      //console.log(isActive)
+    }
   return (
-    <FlexCenter height={600}
+    <FlexCenter height={'auto'}
     p={'2rem 0 4rem 0'} 
     flexDirection={'column'}
     backgroundColor={'rgba(46, 45, 45, 0.7)'}
@@ -17,22 +40,26 @@ const ProjectMind = () => {
                             justifyContent:'space-between',
                             gap:'3.5rem',
                           }}>
-                            <Box height='100%'  sx={{
-                              
-
+                            <Box   sx={{
                               position:'fixed',
-                              top:0,
-                              left:0,
+                              top: 0,
+                              right: 0,
+                              bottom: 0,
+                              left: 0,
                               zIndex:-1,
+                              overflow: 'hidden',
                               
                             }}>
-                            
+                            {/* los estilos del video estan en el css */}
                                 <video 
+                                  className='video'
                                 autoPlay
                                 loop
                                 muted
                                  type="video/mp4"
-                                 height={'100%'}>
+                            
+                              
+                                 >
                                   <source src={video}  />
 
                                  </video>
