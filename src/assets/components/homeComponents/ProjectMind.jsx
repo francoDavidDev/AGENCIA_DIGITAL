@@ -14,13 +14,12 @@ const ProjectMind = () => {
     flexDirection={'column'}
     backgroundColor={'rgba(46, 45, 45, 0.7)'}
      sx={{
-                            backgroundRepeat:'none',
-                            backgroundSize:'cover',
-                            backgroundPosition:'center',
                             justifyContent:'space-between',
                             gap:'3.5rem',
                           }}>
-                            <Card height='100%' sx={{
+                            <Box height='100%'  sx={{
+                              
+
                               position:'fixed',
                               top:0,
                               left:0,
@@ -33,12 +32,12 @@ const ProjectMind = () => {
                                 loop
                                 muted
                                  type="video/mp4"
-                                 height={'200%'}>
+                                 height={'100%'}>
                                   <source src={video}  />
 
                                  </video>
                            
-                            </Card>
+                            </Box>
 
                             <Box  width={'3px'}
         backgroundColor='#0CBCC0' 
