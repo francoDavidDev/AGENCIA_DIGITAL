@@ -33,7 +33,7 @@ const ProjectMind = () => {
                                 loop
                                 muted
                                  type="video/mp4"
-                                 width={'200%'}>
+                                 height={'100%'}>
                                   <source src={video}  />
 
                                  </video>
