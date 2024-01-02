@@ -32,7 +32,7 @@ const ProjectMind = () => {
       //console.log(isActive)
     }
   return (
-    <FlexCenter height={'auto'}
+    <FlexCenter height={'100vh'}
     p={'2rem 0 4rem 0'} 
     flexDirection={'column'}
     backgroundColor={'rgba(46, 45, 45, 0.7)'}
