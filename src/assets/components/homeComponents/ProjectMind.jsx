@@ -47,7 +47,7 @@ const ProjectMind = () => {
                               bottom: 0,
                               left: 0,
                               zIndex:-1,
-                             
+                             overflow:'hidden'
                               
                             }}>
                             {/* los estilos del video estan en el css */}
