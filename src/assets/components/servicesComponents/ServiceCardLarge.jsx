@@ -147,7 +147,7 @@ const ServiceCardLarge = () => {
                         <Typography>
                         {service.informacion}
                         </Typography>
-                            <Button  variant="contained" sx={{ backgroundColor:'#0ED8DD', 
+                            <Button   variant="a" href='https://www.instagram.com/visibilidadweb/' target='_blank' sx={{ backgroundColor:'#0ED8DD', 
                             color:'black',
                             p:'0.7rem', m:'1rem'}} >
                               MAS INFORMACION

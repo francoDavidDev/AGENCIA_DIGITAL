@@ -4,7 +4,7 @@ export const LINKS =[
         path:'/home'
     },
     {
-        name: 'Nosotros',
+        name: 'Sombre mi',
         path:'/about'
     },
    
@@ -129,7 +129,7 @@ export const WORKS =  [
 export const ICONS_LINKS=[
     {
         name: facebook,
-        path:'#'
+        path:'https://www.facebook.com/profile.php?id=100075172364405&locale=es_LA'
     },
    /* {
         name: linkedin
@@ -137,11 +137,11 @@ export const ICONS_LINKS=[
     },*/
     {
         name: instagram,
-        path:'#'
+        path:'https://www.instagram.com/visibilidadweb/'
     },
     {
         name: email,
-        path:'#'
+        path:'mailto:visibilidad_web@outlook.es'
     },
 ]
 

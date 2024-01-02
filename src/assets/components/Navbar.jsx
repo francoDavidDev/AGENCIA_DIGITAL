@@ -51,7 +51,7 @@ const Navbar = () => {
                     }}>
       
 
-            <Box sx={{display:{xs:'none', sm:'flex',p:0}
+            <Box sx={{display:{xs:'none', sm:'flex',p:0,gap:'1rem'}
                
                      }}>
                 {LINKS.map((link,i)=>{

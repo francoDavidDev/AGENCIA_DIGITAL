@@ -3,7 +3,7 @@ import { Box, IconButton,Button, Typography } from '@mui/material'
 
 import video from '../../../video/estrecharManos.mp4'
 import FlexCenter from '../FlexCenter'
-import { Link } from 'react-router-dom'
+import Link from '@mui/material/Link'
 
 import { ICONS_LINKS } from '../../../constants';
 
@@ -74,9 +74,9 @@ const ProjectMind = () => {
             <FlexCenter sx={{gap:'2rem'}}>
                 {ICONS_LINKS.map((icon)=>{
                     return(
-                      <Link to={icon.path}>
-                        <Button key={icon.name} sx={{borderRadius:'50%', border:'1px solid #0CBCC0'}}>
-                        <IconButton color='white'>
+                      <Link href={icon.path} target='_blank'>
+                        <Button   key={icon.name} sx={{borderRadius:'50%', border:'1px solid #0CBCC0'}}>
+                        <IconButton color='white'   >
                          
                           <img src={icon.name} alt="" />
                         
@@ -93,13 +93,17 @@ const ProjectMind = () => {
              <Typography>
                     ¿Tienes algun proyecto en mente?
              </Typography>
+             <Link className='link' target='_blank' href='https://www.instagram.com/visibilidadweb/'>
 
              <Button sx={{border:'solid 1px #0CBCC0', borderRadius:0}}>
                 <Typography p={1} color={'#0CBCC0'} >
-                  Hacer consulta
+                Hacer consulta
+                 
+                
+      
                 </Typography>
              </Button>
-             
+             </Link>
              <Typography>
                     www.MatteAgenciaDigital.com
              </Typography>
