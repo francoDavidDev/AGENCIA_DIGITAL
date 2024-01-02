@@ -32,8 +32,8 @@ const ProjectMind = () => {
       //console.log(isActive)
     }
   return (
-    <FlexCenter height={'530px'}
-    p={'2rem 0 4rem 0'} 
+    <FlexCenter height={'auto'}
+    p={'2rem 0 3rem 0'} 
     flexDirection={'column'}
     backgroundColor={'rgba(46, 45, 45, 0.7)'}
      sx={{
@@ -41,13 +41,13 @@ const ProjectMind = () => {
                             gap:'3.5rem',
                           }}>
                             <Box   sx={{
-                              position:'fixed',
+                             
                               top: 0,
                               right: 0,
                               bottom: 0,
                               left: 0,
                               zIndex:-1,
-                              overflow: 'hidden',
+                             
                               
                             }}>
                             {/* los estilos del video estan en el css */}
@@ -58,9 +58,9 @@ const ProjectMind = () => {
                                 muted
                                  type="video/mp4"
                             
-                              
+                           
                                  >
-                                  <source src={video}  />
+                                  <source src={video} />
 
                                  </video>
                            

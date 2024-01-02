@@ -9,6 +9,7 @@ const Footer = () => {
     <FlexCenter  flexDirection={'column'} 
     height={'auto'} 
     backgroundColor={'#141414'}
+
      gap={'1rem'}>
        
 
