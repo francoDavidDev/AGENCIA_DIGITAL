@@ -93,7 +93,7 @@ const ProjectMind = () => {
              <Typography>
                     ¿Tienes algun proyecto en mente?
              </Typography>
-             <Link className='link' target='_blank' href='https://www.instagram.com/visibilidadweb/'>
+             <Link className='link' target='_blank' href='https://www.instagram.com/franco_david_66/'>
 
              <Button sx={{border:'solid 1px #0CBCC0', borderRadius:0}}>
                 <Typography p={1} color={'#0CBCC0'} >

@@ -63,10 +63,10 @@ const WeMe = () => {
                 <FlexStart width={1} flexDirection={'column'}gap={'1rem'}height={'8rem'} mr='1rem'           >  
                   
                     <Typography fontWeight={'bold'} variant='h5'sx={{fontSize:{xs:'0.9rem',sm:'1.1rem'}}}>
-                    ¿Que hago?
+                    ¿A que me dedico?
                     </Typography>
                     <Typography variant='p'sx={{fontSize:{xs:'0.8rem',sm:'0.9rem'}}} >
-                    Conecto tecnología y marketing con pasión.
+                    Soy programador, digital marketer y estudiante en informatica
                     </Typography>
                     
                    
@@ -91,7 +91,7 @@ const WeMe = () => {
                     <Typography variant='p'
                        sx={{fontSize:{xs:'0.8rem',sm:'0.9rem'}}}
                      >
-                   Trabajo meticuloso, compromiso total con el cliente.
+                    El trabajo duro vence al talento cuando el talento no trabaja duro.
                     </Typography>
                     
                    
@@ -117,7 +117,7 @@ const WeMe = () => {
                     <Typography variant='p'
                        sx={{fontSize:{xs:'0.8rem',sm:'0.9rem'}}}
                      >
-                    Trabajo al alcance de tu visión y necesidad de mi cliente.
+                    Trabajo de forma remota 
                     </Typography>
                     
                    
@@ -145,9 +145,9 @@ export default WeMe
 
 
 
-import escritorioNegro from '../../../img/banners/escritorioNegro.jpg'
-import marketing from '../../../img/banners/marketing.jpg'
-import tecnologiaMarketing from '../../../img/banners/tecnologiaMarketing.jpg'
+import escritorioNegro from '../../../img/banners/desarrollador-web-1.png'
+import marketing from '../../../img/banners/ada13-tech.jpg'
+import tecnologiaMarketing from '../../../img/banners/cafeteria.jpg'
 
 
 const itemData = [

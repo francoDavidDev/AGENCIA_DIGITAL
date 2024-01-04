@@ -37,8 +37,10 @@ const Navbar = () => {
   
 }}  
     > 
-     <Box sx={{width:{xs:'30px',sm:'50px'}}}>
-    <img src={matteIcon} alt="" width='100%' />
+     <Box sx={{width:1, ml:'1rem'}}>
+        <Typography fontWeight={'bold'}>
+            Franco  David<Typography  variant='gap' color={'#0CBCC0'} >  Developer</Typography>
+        </Typography>
     </Box>
      
 

@@ -25,14 +25,14 @@ const BannerMain = () => {
                     textAlign:{xs:'center',sm:'left'}
                    }} >
             <Typography variant='h4' color='#0CBCC0'  fontWeight='bold' sx={{fontSize:{xs:'1.8rem', sm:'1.5rem'},letterSpacing: '4px'}}>
-                Matte
+                Marketing Digital
             </Typography>
             <Typography variant='h1' sx={{fontSize:{xs:'2rem', sm:'3rem'}}} fontWeight='bold'>
-              TU AGENCIA DE <Box component={'span'} color='#0CBCC0'>  MARKETING  </Box> CREATIVO
+              DESARROLLADOR  <Box component={'span'} color='#0CBCC0'>  WEB  </Box> 
             </Typography>
             <Box/>
             <Typography variant='p' sx={{fontSize:{xs:'0.8rem', sm:'1rem'}}} >
-             Ayudamos a emprendedores a tener visilidad en la web con precios economicos
+             Ayudo a emprendedores a tener visibilidad web
             </Typography>
 
                <Box sx={{display:'flex',

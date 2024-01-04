@@ -33,7 +33,7 @@ const WorksContent = () => {
            
             </Typography>
             <Typography variant='p' fontSize={'0.7rem'} color={'#0CBCC0'}>
-                ¡VISITA LA PAGINA CON UN CLICK!
+                PAGINAS WEBS DESARROLLADAS
               </Typography>
          </Box>
      

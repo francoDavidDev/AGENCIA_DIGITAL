@@ -127,21 +127,21 @@ export const WORKS =  [
 
 
 export const ICONS_LINKS=[
-    {
+   /*  {
         name: facebook,
         path:'https://www.facebook.com/profile.php?id=100075172364405&locale=es_LA'
     },
-   /* {
+   {
         name: linkedin
         
     },*/
     {
         name: instagram,
-        path:'https://www.instagram.com/visibilidadweb/'
+        path:'https://www.instagram.com/franco_david_66/'
     },
     {
         name: email,
-        path:'mailto:visibilidad_web@outlook.es'
+        path:'mailto:francodavid_dev@outlook.com'
     },
 ]
 
@@ -156,16 +156,16 @@ export const WEB_PRICES=[
         title:'Landing Page',
         url:'/questionLandingPage',
         description1:[
-            {d:'Web hosting por 1 año'},
+          
             {d:'Dominio por 1 año'},
-            {d:'Certificado SSL x 1 año'},
+
             {d:'No necesita mantenimiento web'},
 
         ],
 
         description2:[
-            {d:'Sitio creado en REACT.JS'},
-            {d:'5 secciones(se cobra adicional por mas secciones)'},
+            {d:'Sitio creado en React.js'},
+            {d:'4 secciones(se cobra adicional por mas secciones)'},
             {d:'Hasta 10 fotos precargadas'},
             {d:'No necesita mantenimiento web'},
 
@@ -174,10 +174,8 @@ export const WEB_PRICES=[
             {d:'Optimización para todo tipo de dispositivo'},
             {d:'1 formulario de contacto'},
             {d:'Links a redes sociales'},
-            {d:'Formularios de contacto'},
             {d:'Botón de WhatsApp'},
-            {d:'Hasta 5 cuentas de mail'},
-            {d:'WhatsApp intregrado'},
+
         ],
 
         price:'$20.000',
@@ -194,26 +192,23 @@ export const WEB_PRICES=[
         description1:[
             {d:'Web hosting por 1 año'},
             {d:'Dominio por 1 año'},
-            {d:'Certificado SSL x 1 año'},
-            {d:'No necesita mantenimiento web'},
+           // {d:'Certificado SSL x 1 año'*},
+            {d:'Mantenimiento web'},
 
         ],
 
         description2:[
-            {d:'Sitio creado en REACT.JS'},
-            {d:'5 secciones(se cobra adicional por mas secciones)'},
-            {d:'Hasta 10 fotos precargadas'},
-            {d:'No necesita mantenimiento web'},
+            {d:'Sitio creado en React.js'},
+            {d:'6 secciones(se cobra adicional por mas secciones)'},
+            {d:'Hasta 15 fotos precargadas'},
 
         ],
         description3:[
             {d:'Optimización para todo tipo de dispositivo'},
             {d:'1 formulario de contacto'},
             {d:'Links a redes sociales'},
-            {d:'Formularios de contacto'},
+
             {d:'Botón de WhatsApp'},
-            {d:'Hasta 5 cuentas de mail'},
-            {d:'WhatsApp intregrado'},
         ],
 
         price:'$35.000',
