@@ -25,14 +25,14 @@ const BannerMain = () => {
                     textAlign:{xs:'center',sm:'left'}
                    }} >
             <Typography variant='h4' color='#0CBCC0'  fontWeight='bold' sx={{fontSize:{xs:'1.8rem', sm:'1.5rem'},letterSpacing: '4px'}}>
-                Marketing Digital
+                Marketing Digital &
             </Typography>
             <Typography variant='h1' sx={{fontSize:{xs:'2rem', sm:'3rem'}}} fontWeight='bold'>
-              DESARROLLADOR  <Box component={'span'} color='#0CBCC0'>  WEB  </Box> 
+              DESARROLLO  <Box component={'span'} color='#0CBCC0'>  WEB  </Box> 
             </Typography>
             <Box/>
             <Typography variant='p' sx={{fontSize:{xs:'0.8rem', sm:'1rem'}}} >
-             Ayudo a emprendedores a tener visibilidad web
+             Personalizando tu servicio
             </Typography>
 
                <Box sx={{display:'flex',

@@ -39,7 +39,7 @@ const Navbar = () => {
     > 
      <Box sx={{width:1, ml:'1rem'}}>
         <Typography fontWeight={'bold'}>
-            Franco  David<Typography  variant='gap' color={'#0CBCC0'} >  Developer</Typography>
+            Visibilidad<Typography  variant='gap' color={'#0CBCC0'} >  Web</Typography>
         </Typography>
     </Box>
      

@@ -93,7 +93,7 @@ const ProjectMind = () => {
              <Typography>
                     ¿Tienes algun proyecto en mente?
              </Typography>
-             <Link className='link' target='_blank' href='https://www.instagram.com/franco_david_66/'>
+             <Link className='link' target='_blank' href='https://www.instagram.com/visibilidadweb'>
 
              <Button sx={{border:'solid 1px #0CBCC0', borderRadius:0}}>
                 <Typography p={1} color={'#0CBCC0'} >
@@ -104,8 +104,8 @@ const ProjectMind = () => {
                 </Typography>
              </Button>
              </Link>
-             <Typography component={'a'} variant='a' href='https://www.instagram.com/franco_david_66/' target='_blank' className='link'>
-              Franco david  <Typography variant='gap' color='#0CBCC0'  fontWeight={'bold'}> dev</Typography> 
+             <Typography component={'a'} variant='a' href='https://www.instagram.com/visibilidadweb' target='_blank' className='link'>
+              Visibilidad<Typography variant='gap' color='#0CBCC0'  fontWeight={'bold'}>Web</Typography> 
                </Typography>
                                 
     </FlexCenter>

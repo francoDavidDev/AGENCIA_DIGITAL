@@ -15,7 +15,7 @@ const ServicesLarge = () => {
     
   <Box backgroundColor='#141414' >
     <Box width={'90%'}display={'flex'} flexDirection={'column'}margin={'auto'}pt={'5rem'}pb={'5rem'}>
-      <Title title={'PRECIOS WEBS'} subtitle={'PRECIOS DE NUESTRAS PAGINAS WEBS'} />
+   
     
                   <ServiceCardLarge/>
 
