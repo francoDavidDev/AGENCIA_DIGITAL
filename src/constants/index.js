@@ -136,20 +136,23 @@ export const ICONS_LINKS = [
   },
 ];
 
+
+import menu from '../img/products/menus.jpg'
+import landingPage from '../img/products/landingPage.png'
 export const WEB_PRICES = [
   {
-    image: starkeFitt,
+    image: landingPage,
     title: "Landing Page",
     url: "/questionLandingPage",
     description1: [
-      { d: "Dominio por 1 año" },
-
+      //{ d: "Dominio por 1 año" },
+      { d: "Web hosting por 1 año" },
       { d: "No necesita mantenimiento web" },
     ],
 
     description2: [
       { d: "Sitio creado en React.js" },
-      { d: "4 secciones(se cobra adicional por mas secciones)" },
+      { d: "4 secciones (se cobra adicional por mas secciones)" },
       { d: "Hasta 10 fotos precargadas" },
       { d: "No necesita mantenimiento web" },
     ],
@@ -166,7 +169,7 @@ export const WEB_PRICES = [
   {
     title: "Paginas Corporativas",
     url: "/questionWebCorporativa",
-    image: starkeFitt,
+    image: landingPage,
     description1: [
       { d: "Web hosting por 1 año" },
       { d: "Dominio por 1 año" },
@@ -176,7 +179,7 @@ export const WEB_PRICES = [
 
     description2: [
       { d: "Sitio creado en React.js" },
-      { d: "6 secciones(se cobra adicional por mas secciones)" },
+      { d: "6 secciones (se cobra adicional por mas secciones)" },
       { d: "Hasta 15 fotos precargadas" },
     ],
     description3: [
@@ -193,26 +196,30 @@ export const WEB_PRICES = [
   },
 ];
 
+
+
+
 export const MENU_PRODUCTS = [
   {
     title: "Menus de cafeteria interactivas",
     price: "$25.000",
     informacion:
       "(*) El mantenimiento incluye actualizaciones,temas, plugins y seguridad mensual",
-    image: starkeFitt,
+      image: menu,
     //url:'/questionWebCorporativa',
     description1: [{ d: "Mantenimiento web (*)" }],
 
     description2: [
       { d: "Sitio creado en React.js" },
-      { d: "4 secciones(se cobra adicional por mas secciones)" },
+      { d: "3 secciones (se cobra adicional por mas secciones)" },
       { d: "Hasta 15 fotos precargadas" },
       { d: "Animaciones" },
       { d: "Información Contextual" },
     ],
     description3: [{ d: "Links a redes sociales" }, { d: "Codigo QR" }],
+   
   },
-
+/*
   {
     title: "Menus de cafeteria interactivas Medium",
     image: starkeFitt,
@@ -239,8 +246,8 @@ export const MENU_PRODUCTS = [
     price: "$25.000",
     informacion:
       "(*) El mantenimiento incluye actualizaciones,temas, plugins y seguridad mensual",
-  },
-
+  },*/
+/*
   {
     title: "Menus de cafeteria interactivas Premium",
     image: starkeFitt,
@@ -276,7 +283,7 @@ export const MENU_PRODUCTS = [
       "(*) El mantenimiento incluye actualizaciones,temas, plugins y seguridad mensual",
     informacion2:
       "(*) Las notificaciones incluyen nuevos productos, mensajes de promos,descuentos y novedades.",
-  },
+  },*/
 ];
 
 export const GYMS_WEBS = [

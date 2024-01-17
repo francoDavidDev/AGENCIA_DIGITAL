@@ -38,11 +38,11 @@ const WeMe = () => {
               pb:'0.5rem'
             }}>
                 <Box width={'3rem'} height={'2px'} mt={'1.2rem'} mr={'1rem'} backgroundColor='#0CBCC0'/> 
-                SOBRE MI.
+                SOBRE NOSOTROS.
            
             </Typography>
             <Typography variant='p' fontSize={'0.7rem'} color='#0CBCC0'>
-                MI FILOSIA Y EXPERIENCIA
+                NUESTRA FILOSOFIA
             </Typography>
         </FlexStart>  
 
@@ -63,10 +63,10 @@ const WeMe = () => {
                 <FlexStart width={1} flexDirection={'column'}gap={'1rem'}height={'8rem'} mr='1rem'           >  
                   
                     <Typography fontWeight={'bold'} variant='h5'sx={{fontSize:{xs:'0.9rem',sm:'1.1rem'}}}>
-                    ¿A que me dedico?
+                    ¿A que nos dedicamos?
                     </Typography>
                     <Typography variant='p'sx={{fontSize:{xs:'0.8rem',sm:'0.9rem'}}} >
-                    Soy programador, digital marketer y estudiante en informatica
+                    Somos programadores y digital marketers a sus servicios
                     </Typography>
                     
                    
@@ -86,7 +86,7 @@ const WeMe = () => {
                      variant='h5'
                      sx={{fontSize:{xs:'0.9rem',sm:'1.1rem'}}}
                      >
-                    Mi filosofía
+                    Nuestra filosifia
                     </Typography>
                     <Typography variant='p'
                        sx={{fontSize:{xs:'0.8rem',sm:'0.9rem'}}}
@@ -112,12 +112,12 @@ const WeMe = () => {
                      variant='h5'
                      sx={{fontSize:{xs:'0.9rem',sm:'1.1rem'}}}
                      >
-                    Como trabajo
+                    Como trabajo Trabajamos
                     </Typography>
                     <Typography variant='p'
                        sx={{fontSize:{xs:'0.8rem',sm:'0.9rem'}}}
                      >
-                    Trabajo de forma remota 
+                    Trabajamos de forma remota pero siempre presente
                     </Typography>
                     
                    
@@ -145,9 +145,9 @@ export default WeMe
 
 
 
-import escritorioNegro from '../../../img/banners/desarrollador-web-1.png'
+import escritorioNegro from '../../../img/banners/marketing.jpg'
 import marketing from '../../../img/banners/ada13-tech.jpg'
-import tecnologiaMarketing from '../../../img/banners/cafeteria.jpg'
+import tecnologiaMarketing from '../../../img/banners/gente-trabajando.jpg'
 
 
 const itemData = [
